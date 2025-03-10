@@ -1,22 +1,33 @@
 {
-  "name": "@uniswap/lib",
-  "version": "4.0.1-alpha",
-  "description": "📖 Solidity libraries that are shared across Uniswap contracts",
+  "name": "@penta-swap/lib",
+  "version": "1.0.1",
+  "description": "📖 Solidity libraries that are shared across Pentaswap contracts",
+  "author": {"name": "syedmohib", "email": "smohib945@gmail.com"},
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://uniswap.org",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://pentaswap.io/",
   "repository": {
-    "url": "https://github.com/Uniswap/uniswap-lib",
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/pentaswap/v2-core"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-lib/issues"
+    "url": "https://github.com/pentaswap/lib/issues"
   },
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "pentaswap",
+    "ethereum",
+    "lib",
+    "pentagon-games",
+    "penta-swap"
+  ],
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
