@@ -1,6 +1,6 @@
 {
   "name": "@penta-swap/lib",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "📖 Solidity libraries that are shared across Pentaswap contracts",
   "author": {"name": "syedmohib", "email": "smohib945@gmail.com"},
   "files": [
